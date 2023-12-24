@@ -24,8 +24,9 @@ namespace OOP1
                 UnitsInStock=15 };
 
             ProductManager productManager = new ProductManager();
-            productManager.Add();
-           
+            productManager.Add(product1);
+            Console.ReadLine();
         }
+
     }
 }

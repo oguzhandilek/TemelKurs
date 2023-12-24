@@ -8,9 +8,17 @@ namespace OOP1
 {
     public class ProductManager
     {
-        public void Add() 
+        public void Add(Product product) 
         {
-
+            Console.WriteLine("Eklenen Ürün: "+ product.ProductName);
+        }
+        public void Update(Product product)
+        {
+            Console.WriteLine("Güncellenen Ürün: " + product.ProductName);
+        }
+        public void Delete(Product product)
+        {
+            Console.WriteLine("Silinen Ürün: " + product.ProductName);
         }
     }
 }

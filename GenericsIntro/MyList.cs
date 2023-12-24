@@ -23,7 +23,7 @@ namespace GenericsIntro
                 items[i] = tempArray[i];
             }
             items[items.Length-1] = item;
-        } 
-
+        }
+       
     }
 }

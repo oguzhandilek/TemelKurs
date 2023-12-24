@@ -25,7 +25,7 @@ namespace OOP1
 
             ProductManager productManager = new ProductManager();
             productManager.Add();
-            //4. Gün 37:20
+           
         }
     }
 }

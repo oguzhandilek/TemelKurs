@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DEgerveReferansTipler
+namespace OOP1
 {
-    internal class Program
+    public class ProductManager
     {
-        static void Main(string[] args)
+        public void Add() 
         {
-
 
         }
     }
